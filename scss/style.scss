@@ -5,5 +5,10 @@
     width:200px;
     height:200px;
     margin:50px;
-    background :aqua;
+    background :hotpink;
+    transition:.5s;
+
+    &:hover {
+        transform:rotate(360deg) scale(2);
+    }
 }
